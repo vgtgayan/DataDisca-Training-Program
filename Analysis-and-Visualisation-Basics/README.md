@@ -44,11 +44,12 @@ Steps:
 7. Complete the following table about the dataset columns
 
 | Field Name | Description | Pandas Data Type | Data Scale | Min Value | Max Value | No of Unique Values | Missing Value Count |    
-| Region | Region | object | ---- | NA | NA | 10 | 801 |  
-| LGA | Local government area | object | ---- | NA | NA | 83 | 0 |
-| Quater | Year and starting month of the quater | object | ---- | NA | NA | 89 | 0 |  
-| Count | No: of rentals | object | ---- | 3 | 65229 | 2508 | 0 |
-| Median | Median of the rentals | object | ---- | 70 | 595 | 259 | 0 |
+| --- | --- | --- | --- | --- | --- | --- |---------------------|
+| Region | Region | object | ---- | NA | NA | 10 | 801                 |  
+| LGA | Local government area | object | ---- | NA | NA | 83 | 0                   |
+| Quater | Year and starting month of the quater | object | ---- | NA | NA | 89 | 0                   |  
+| Count | No: of rentals | object | ---- | 3 | 65229 | 2508 | 0                   |
+| Median | Median of the rentals | object | ---- | 70 | 595 | 259 | 0                   |
 
 7. Use the following plotly chart types at least once to discuss the data characteristics.   
     1. Scatter [https://plotly.com/python/line-and-scatter/](https://plotly.com/python/line-and-scatter/)
